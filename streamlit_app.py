@@ -3,7 +3,7 @@ import numpy as np
 import streamlit as st
 import altair as alt
 import sqlite3
-import missingno as miss
+#import missingno as miss
 from matplotlib import pyplot as plt
 import seaborn as sns
 from vega_datasets import data
@@ -51,7 +51,7 @@ df = pd.read_sql("SELECT * FROM Final_Database", con = conn)
 df = df.rename(columns = {"Primary energy consumption (TWh)" : "Energy_Consumption_TWh", "Forest cover" : "Forest_Cover"})
 
 df = df[df.columns.difference(["Country", "Year", "Energy_Consumption_TWh", "Literacy_Rate"])]
-miss.matrix(df)
+#miss.matrix(df)
 
 
 
