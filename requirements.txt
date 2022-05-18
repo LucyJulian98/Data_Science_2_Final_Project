@@ -4,4 +4,4 @@ numpy
 altair
 plotly
 seaborn
-
+scikit-learn
