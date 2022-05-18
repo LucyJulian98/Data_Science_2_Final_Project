@@ -3,6 +3,5 @@ matplotlib
 numpy
 altair
 plotly
-sqlite3
 seaborn
 
