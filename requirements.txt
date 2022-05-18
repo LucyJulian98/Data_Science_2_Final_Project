@@ -5,5 +5,4 @@ altair
 plotly
 sqlite3
 seaborn
-sci-kit learn 
 
