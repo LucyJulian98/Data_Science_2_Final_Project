@@ -6,7 +6,7 @@ import sqlite3
 #import missingno as miss
 from matplotlib import pyplot as plt
 import seaborn as sns
-from vega_datasets import data
+#from vega_datasets import data
 import plotly.express as px
 
 ### For Modeling
